@@ -1,0 +1,20 @@
+/*
+Cost of driving) Write a program that prompts the user to enter the distance to
+drive, the fuel efficiency of the car in miles per gallon, and the price per gallon,
+and displays the cost of the trip.
+*/
+import java.util.*;
+        public class Error {
+            public static void main(String[] args) {
+                Scanner input = new Scanner(System.in);
+                System.out.print(" Enter Driving Distance ");
+
+                double distance = input.nextDouble();
+                System.out.print("Miles per gallon");
+                double mpg = input.nextDouble();
+                System.out.print("Price per gallon");
+                double ppg = input.nextDouble();
+                double total = distance / mpg * ppg;
+                System.out.print("The cost of driving is" + total);
+            }
+        }
